@@ -11,6 +11,10 @@ fun main(args: Array<String>) {
 
     val apple: Char = 'A';
     println(apple.toInt() > 80);
+
+    var s : String? = "aaa";
+    s = null;
+    println(s!!.length);
 }
 
 class Person2(var name: String = "", var weight: Float, var high: Float) {

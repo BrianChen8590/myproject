@@ -13,6 +13,10 @@ public class StudentBean {
         this.math = math;
     }
 
+    public int highest() {
+        return (english > math) ? english : math;
+    }
+
     public String print() {
         return "Name : " + this.name + ", English : " + this.english + ", Math : " + this.math;
     }
