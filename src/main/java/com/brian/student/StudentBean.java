@@ -17,6 +17,10 @@ public class StudentBean {
         return (english > math) ? english : math;
     }
 
+    public int average() {
+        return (english + math) / 2;
+    }
+
     public String print() {
         return "Name : " + this.name + ", English : " + this.english + ", Math : " + this.math;
     }
